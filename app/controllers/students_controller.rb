@@ -13,7 +13,8 @@ class StudentsController < ApplicationController
 
   def create
     byebug
-    @student = Student.find(params[:id])
+    @student = Student.create!("first_name"=>"Margaery", "last_name"=>"Tyre
+ll")
   end
 
 end
