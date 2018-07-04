@@ -12,7 +12,7 @@ class StudentsController < ApplicationController
   end
 
   def create
-    byebug
+    #byebug
     @student = Student.create!("first_name"=>"Margaery", "last_name"=>"Tyre
 ll")
   end
